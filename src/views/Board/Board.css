@@ -1,0 +1,38 @@
+.board-left, .board-right {
+  display: inline-block; }
+
+.board-left .underline {
+  font-family: "Assistant Bold", sans-serif;
+  display: block;
+  margin: 15px 0 5px 0; }
+
+.board-left .member {
+  padding-bottom: 3px; }
+
+.board-right {
+  float: right; }
+
+#board {
+  font-family: "Assistant Light", sans-serif;
+  width: 900px;
+  margin: 100px auto;
+  text-align: justify;
+  line-height: 25px; }
+
+h1 {
+  margin-bottom: 60px; }
+
+@media (max-width: 968px) {
+  .board-left {
+    position: absolute;
+    margin-top: 65%;
+    margin-bottom: 65px; }
+  .board-right {
+    position: relative;
+    width: 100%; }
+  #board {
+    width: 80%; }
+  h1 {
+    text-align: center; }
+  img {
+    width: 100%; } }

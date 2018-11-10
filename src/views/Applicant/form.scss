@@ -1,0 +1,179 @@
+@import './../../styles/_main.scss';
+
+form {
+    font-family: $primaryFont;
+    font-size: 120%;
+    width: 550px;
+    margin: 50px auto;
+}
+
+#form-info {
+    width: 550px;
+    margin: auto;
+}
+
+.error {
+    font-weight: 700;
+    display: block;
+    color: $secondaryColor;
+    margin-bottom: 30px;
+}
+
+button {
+  background-color: $primaryColor;
+  /*border: 0.1rem solid #9b4dca;*/
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+  /*display: inline-block;*/
+  font-size: 1.1rem;
+  /*font-weight: 700;*/
+  /*height: 3.8rem;*/
+  /*letter-spacing: .1rem;*/
+  /*line-height: 3.8rem;*/
+  padding: 15px 25px;
+  /*text-align: center;*/
+  /*text-decoration: none;*/
+  /*text-transform: uppercase;*/
+  /*white-space: nowrap;*/
+}
+
+button:focus,
+button:hover {
+  background-color: #606c76;
+  border-color: #606c76;
+  color: #fff;
+  outline: 0;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+button[disabled]:focus,
+button[disabled]:hover {
+  /*background-color: #9b4dca;*/
+  background-color: #000000;
+  border-color: #9b4dca;
+}
+
+button.button-outline {
+  background-color: transparent;
+  color: #9b4dca;
+}
+
+button.button-outline:focus,
+button.button-outline:hover {
+  background-color: transparent;
+  border-color: #606c76;
+  color: #606c76;
+}
+
+button.button-outline[disabled]:focus,
+button.button-outline[disabled]:hover {
+  border-color: inherit;
+  color: #9b4dca;
+}
+
+.button-clear,
+button.button-clear {
+  background-color: transparent;
+  border-color: transparent;
+  color: #9b4dca;
+}
+
+button.button-clear:focus,
+button.button-clear:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #606c76;
+}
+
+button.button-clear[disabled]:focus,
+button.button-clear[disabled]:hover {
+  color: #9b4dca;
+}
+
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+input[type='color'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='datetime'],
+input[type='datetime-local'],
+input:not([type]),
+textarea,
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 1px solid #d1d1d1;
+  border-radius: .2rem;
+  box-shadow: none;
+  box-sizing: inherit;
+  /*height: 3.8rem;*/
+  padding: .6rem 1.0rem;
+  width: 300px;
+}
+
+input[type='email']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='tel']:focus,
+input[type='text']:focus,
+input[type='url']:focus,
+input[type='color']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='week']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input:not([type]):focus,
+textarea:focus,
+select:focus {
+  border-color: #9b4dca;
+  outline: 0;
+}
+
+select {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%23d1d1d1" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>') center right no-repeat;
+  padding-right: 3.0rem;
+}
+
+select:focus {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="%239b4dca" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
+}
+
+textarea {
+  min-height: 6.5rem;
+  width: 500px;
+}
+
+label,
+legend {
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+}
+
+fieldset {
+  border-width: 0;
+  padding: 0;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  display: inline;
+}

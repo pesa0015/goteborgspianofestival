@@ -1,0 +1,20 @@
+.pedagog {
+  width: 700px;
+  margin: auto;
+  padding: 100px 0 100px 0; }
+
+.name {
+  display: inline-block;
+  float: left; }
+
+.pedagog img {
+  display: inline-block;
+  float: right;
+  width: 300px;
+  margin: 0 0 0 30px; }
+
+.pedagog p {
+  font-family: "Assistant Light", sans-serif, serif;
+  line-height: 25px;
+  /*text-align: justify;*/
+  clear: left; }

@@ -1,0 +1,108 @@
+header ul {
+  font-size: 17px;
+  list-style: none;
+  float: right;
+  margin: 40px 10% 20px 0;
+  padding: 0;
+  line-height: 60px; }
+  header ul li a {
+    color: #EC4758; }
+
+header ul, #flags, .menu-item {
+  display: inline-block; }
+
+header ul li a:not(.sub-link), #participate span, #media span, #more span {
+  text-decoration: none;
+  padding: 40px 20px 43px 20px;
+  transition: .1s; }
+
+header ul li a:hover,
+#participate span:hover,
+#participate li:hover,
+#media span:hover,
+#media li:hover,
+#more span:hover,
+#more li:hover,
+#young-pianists-span:hover {
+  background: #5A5265; }
+
+#participate span, #media span, #more span {
+  cursor: pointer; }
+
+#flags {
+  cursor: pointer; }
+
+#flags img {
+  box-shadow: 1px 1px 1px #000000;
+  transition: .3s; }
+
+#flags img {
+  width: 30px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 30%; }
+
+.sub ul {
+  background: #000000;
+  display: none;
+  position: absolute;
+  margin: 23px 0 0 0;
+  z-index: 3; }
+
+.sub span:hover + ul, .sub ul:hover {
+  display: block; }
+
+li.sub ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer; }
+
+#young-pianists-span, #year-2016 {
+  color: #EC4758;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  display: block; }
+
+#year-2016 {
+  background: #000000; }
+
+#young-pianists, #program-2016 {
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  top: 45%;
+  border-left: 3px solid #EC4758; }
+
+#young-pianists {
+  top: 32%; }
+
+#program-2016 {
+  top: -29%; }
+
+#young-pianists-span:hover + #young-pianists, #young-pianists:hover, #program-2016 {
+  display: block; }
+
+#more img {
+  width: 30px;
+  vertical-align: middle;
+  margin-bottom: 5px; }
+
+@media (max-width: 1200px) {
+  #flags, header ul {
+    display: none; }
+  #menu-icon {
+    float: right; } }
+
+@media (max-width: 1200px) and (min-width: 701px) {
+  #menu-icon {
+    width: 50px;
+    margin: 45px 10% 25px 0; } }
+
+@media (max-width: 700px) {
+  #menu-icon {
+    width: 65px;
+    margin: 35px; } }

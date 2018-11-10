@@ -1,0 +1,67 @@
+@import './../../styles/_main.scss';
+@import 'Footer.css';
+
+.slick-slider {
+    .slick-track {
+        img {
+            width: 100%;
+            height: 700px;
+        }
+    }
+}
+.slick-prev {
+    z-index: 3;
+    left: 2%;
+}
+.slick-next {
+    z-index: 3;
+    right: 2%;
+}
+#places {
+    font-size: 30px;
+    margin-top: 50px;
+}
+#places {
+    div { margin-bottom: 20px; }
+}
+#places {
+    .active-place {
+        text-decoration: underline;
+        text-decoration-color: $nav-link-color;
+    }
+}
+#places {
+    #place-2 {
+        border-left: 3px solid $nav-link-color;
+        border-right: 3px solid $nav-link-color;
+        padding: 0 30px 0 30px;
+        margin: 0 23px 0 23px;
+    }
+}
+#start-content {
+    position: relative;
+}
+#slider-title {
+    position: absolute;
+    text-shadow: 0 2px #000000;
+    top: 50px;
+    color: $secondaryColor;
+    z-index: 2;
+    width: 100%;
+}
+#count-down {
+    margin-top: 70px;
+}
+#days-left {
+    color: $primaryColor;
+    text-shadow: 1px 0px $secondaryColor
+}
+#days-left + div {
+    font-weight: 400;
+}
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 70px 0 70px 0;
+}

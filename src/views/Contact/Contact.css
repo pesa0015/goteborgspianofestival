@@ -1,0 +1,14 @@
+#contact {
+  width: 700px;
+  margin: 90px auto 0 auto; }
+  #contact img {
+    width: 300px;
+    border-radius: 100px; }
+
+#left-content {
+  display: inline-block;
+  width: 50%; }
+
+#right-content {
+  display: inline-block;
+  float: right; }

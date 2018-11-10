@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Assistant Light';
+  font-weight: 300;
+  font-style: normal;
+  src: url('assets/fonts/Assistant/Assistant-Light.ttf');
+}
+@font-face {
+  font-family: 'Assistant Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('assets/fonts/Assistant/Assistant-Regular.ttf');
+}
+@font-face {
+  font-family: 'Assistant Bold';
+  font-weight: 400;
+  font-style: normal;
+  src: url('assets/fonts/Assistant/Assistant-SemiBold.ttf');
+}
+
+@import './styles/_main.scss';
+
+body {
+    margin: 0;
+    font-family: $primaryFont;
+    font-weight: 300;
+}
+#wrapper {
+    padding-top: 143px;
+}
+.only-mobile {
+    display: none;
+}
+@media (max-width: 1200px) {
+    .only-mobile {
+        display: inline-block;
+    }
+}

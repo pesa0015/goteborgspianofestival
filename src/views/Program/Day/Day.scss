@@ -1,0 +1,110 @@
+@import './../../../styles/_main.scss';
+
+#pdf {
+    text-align: center;
+    margin: 30px 0 70px 0;
+    a {
+        text-decoration: none;
+        color: inherit;
+        span {
+            vertical-align: middle;
+        }
+        img {
+            vertical-align: middle;
+            width: 20px;
+        }
+    }
+}
+.day {
+    width: 33%;
+    display: inline-block;
+    float: left;
+    margin: 30px 0 30px 0;
+    /*height: 900px;*/
+}
+.day.break-row {
+    clear: both;
+}
+.date {
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+.day-number {
+    font-weight: 800;
+    color: $primaryColor;
+    margin-right: 5px;
+    text-shadow: 1px 0px $primaryColor;
+}
+.month {
+    
+}
+.event-card {
+    margin: 15px 30px 15px 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $primaryColor;
+}
+.event-card {
+    .left {
+        float: left;
+        margin-right: 30px;
+    }
+}
+.begins + div {
+    text-align: center;
+}
+.event-card {
+    .right {
+        width: 65%;
+        display: inline-block;
+    }
+}
+.description {
+    font-weight: 800;
+    /*border-top: 1px solid #D9AFE9;*/
+    /*border-bottom: 1px solid #D9AFE9;*/
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+}
+.event {
+    font-weight: 800;
+}
+.event {
+    img {
+        width: 25px;
+        vertical-align: middle;
+    }
+}
+.event {
+    a {
+        border-bottom: 3px solid #F552B6;
+        text-decoration: none;
+        color: inherit;
+        vertical-align: middle;
+        transition: .5s;
+    }
+}
+.event a:hover + .underline-dotted {
+    
+}
+.underline-dotted {
+    height: 2px;
+    border-bottom: 1px dotted #000000;
+    /*background: #000000;*/
+}
+.underline-description {
+    margin: -9px 0 7px 0;
+}
+.place {
+    font-weight: 800;
+    font-style: italic;
+    color: $primaryColor;
+}
+.black {
+    font-weight: 600;
+    color: #000000;
+}
+#event-82 .description {
+    /*width: 180%;*/
+    /*margin-left: -120px;*/
+}
